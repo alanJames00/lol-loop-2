@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <h1>Random Programming Jokes</h1>
       <Joke />
+      
     </div>
   );
 }

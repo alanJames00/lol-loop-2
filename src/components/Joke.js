@@ -1,5 +1,6 @@
-// Joke.js
+
 import React from "react";
+import Footer from './Footer';
 
 import Button from "./Button";
 
@@ -16,6 +17,7 @@ const Joke = () => {
     <div className="joke">
       <Button callApi={fetchApi} />
       <p>{Joke}</p>
+      <Footer />
     </div>
   );
 };
