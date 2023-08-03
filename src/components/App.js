@@ -5,7 +5,7 @@ import Joke from "./Joke";
 function App() {
   return (
     <div className="App">
-      <h1>Joke Generator Using React and Joke API</h1>
+      <h1>Random Programming Jokes</h1>
       <Joke />
     </div>
   );
